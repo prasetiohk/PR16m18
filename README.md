@@ -20,7 +20,7 @@ Ini adalah perintah yang digunakan untuk menginisialisasi proyek Gradle dengan j
 Ini adalah definisi dari sebuah task Gradle bernama `greetingTask`. Task ini memiliki aksi `doLast` yang mencetak pesan sapaan kepada pengguna. Pesan sapaan akan mencetak nama yang diterima sebagai properti atau menggunakan nilai default 'Gradle User' jika nama tidak disediakan.
 
 3. `./gradlew greetingTask -Pname=YourName`
-Ini adalah cara untuk menjalankan task Gradle yang baru saja dibuat. Anda dapat menjalankannya dari terminal dengan menggunakan `./gradlew` (atau `gradlew.bat` di Windows), diikuti dengan nama task (`greetingTask`) dan mungkin properti tambahan (`-Pname=YourName`).
+Ini adalah cara untuk menjalankan task Gradle yang baru saja dibuat. Menjalankannya dari terminal dengan menggunakan `./gradlew` (atau `gradlew.bat` di Windows), diikuti dengan nama task (`greetingTask`) dan mungkin properti tambahan (`-Pname=YourName`).
 
 4. Konfigurasi Dependensi
 Ini adalah bagian dari file `build.gradle` yang menentukan dependensi proyek. Dependensi yang didefinisikan di sini adalah `com.google.guava:guava:29.0-jre` dan `junit:junit:4.13`. Ini berarti proyek akan menggunakan pustaka Guava versi 29.0-jre dan JUnit versi 4.13.
